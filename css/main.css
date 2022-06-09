@@ -13,13 +13,16 @@
     object-fit: cover;
     overflow: hidden;
 }
+#scene img{
+    height: 170px;
+}
 nav ul{
     font-family: Playfair, Times, serif;
     font-size: 1.2rem;
 
 }
 .description{
-    max-width: 800px;
+    max-width: 95%;
     margin: 0 auto;
     font-size: 30px;
     line-height: 40px;
@@ -34,7 +37,7 @@ nav ul{
 }
 
 .strategy {
-    max-width: 800px;
+    max-width: 95%;
     margin: 0 auto;
     color: #05031b;
     padding: 50px 0 50px 0
@@ -108,7 +111,7 @@ nav ul{
 
 .strategy-desc-text {
     opacity: .5;
-    max-width: 550px;
+    max-width: 95%;
     font-size: 1.5rem;
     margin-top: 2rem;
     line-height: 2rem;
@@ -444,20 +447,23 @@ opacity: 1;
 
 @media (max-width:640px){
     #titulo{
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+    #scene img{
+        height: 40px;
     }
     nav ul{
         font-size: 1rem;
     }
     .description{
-        max-width: 400px;
-        font-size: 20px;
+        max-width: 100%;
+        font-size: 15px;
         line-height: 30px;
     }
     .strategy-title {
         font-size: 45px;
         line-height: 58px;
-        font-weight: 300;
+        font-weight: 280;
         margin-bottom: 31px;
     }
     .description-item {
@@ -506,7 +512,7 @@ opacity: 1;
     }
     .logo {
         margin-top: 15px;
-        margin-left: 50px;
+        margin-left: 2px;
     }
     .logo img{
         width: 60px;
@@ -518,7 +524,7 @@ opacity: 1;
         margin-top: 160px;
     }
     #mjeReciclamos{
-        font-size: 12rem;
+        font-size: 10rem;
     }
 
     /* Galería de fotos */
@@ -532,13 +538,16 @@ opacity: 1;
 
 @media (max-width:900px) and (min-width:640px){
     #titulo{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+    }
+    #scene img{
+        height: 110px;
     }
     nav ul{
         font-size: 1.2rem;
     }
     .description{
-        max-width: 400px;
+        max-width: 100%;
         font-size: 30px;
         line-height: 40px;
     }
